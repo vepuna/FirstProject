@@ -590,18 +590,43 @@ h1, h2, h3, h4, h5, h6 {
     width: 56px;
     height: 56px;
     text-decoration: none;
-
+    border-right: 1px solid #f9bd87;
     font-size: 35px;
     color: #f38181;
     background-color: #fce38a;
 
     transition: color .3s linear;
 }
-
+.count_social:last-child {
+    border: none;
+}
 .count_social:hover {
     color: #fff;
     background-color: #f38181;
 }
+
+.count_description {
+    display: flex;
+    justify-content: center;
+}
+.count_personinfo {
+    padding: 25px;
+    text-align: center;
+}
+.count_personname {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.count_personocup {
+    color: #a6a6a6;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
 
 
 
