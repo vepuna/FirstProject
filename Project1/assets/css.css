@@ -629,16 +629,63 @@ h1, h2, h3, h4, h5, h6 {
 .achievements{
     height: 250px;
     background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 .achievements_container {
     width: 100%;
 
 }
-.achievements_item {
-   top: -50%;
-    transform: translateY(50%);
+
+/* work */
+.work_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 100px;
 }
+.work_column {
+    flex: 1 1 0;
+}
+.work_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.work_photo {
+     background: linear-gradient(to bottom, #f38181 , #fce38a);
+}
+.work_photo img {
+     display: block;
+     opacity: 1;
+    transition: opacity .2s linear;
+}
+.work_item:hover .work_photo img {
+    opacity: .1;
+}
+.work_info {
+
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+.work_item:hover .work_info {
+    opacity: 1;
+}
+.work_icon {
+    font-size: 35px;
+
+}
+.work_title {
+    text-transform: uppercase;
+}
+
+
 
 
 
