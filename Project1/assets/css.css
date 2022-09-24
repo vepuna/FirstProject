@@ -643,7 +643,7 @@ h1, h2, h3, h4, h5, h6 {
 .work_container {
     display: flex;
     justify-content: space-between;
-    padding: 100px 0 100px;
+    padding-top: 100px;
 }
 .work_column {
     flex: 1 1 0;
@@ -683,6 +683,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 .work_title {
     text-transform: uppercase;
+}
+/*notat*/
+.notat {
+    background-color: #fff;
+    height: 440px;
+
+}
+.notat_container {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.notat_item {
+    display: flex;
+    align-items: center;
+}
+.notat_img {
+
+}
+.notat_info {
+    width: 100%;
+    max-width: 780px;
+    padding-left: 30px;
+}
+.notat_text {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #d2d2d2;
+}
+.notat_author {
+    padding-top: 15px;
+
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    position: absolute;
+
+}
+.notat_author:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+
 }
 
 
